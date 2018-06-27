@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZTNavigationClass"      #项目名称
-  s.version      = "0.0.2"                  #版本号与仓库的标签号对应
+  s.version      = "0.0.3"                  #版本号与仓库的标签号对应
   s.summary      = "自用项目自定义导航栏"       #项目简介
 
   # This description is used to generate tags and improve search results.
@@ -72,7 +72,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/NimoZone/ZTNavigationClass", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/NimoZone/ZTNavigationClass.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
