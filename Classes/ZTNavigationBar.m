@@ -54,14 +54,14 @@
     
     _leftItem = [[UIButton alloc]initWithFrame:CGRectMake(0, _topScale, _buttonWidth, _buttonHeight)];
     _leftItem.titleLabel.font = [UIFont systemFontOfSize:14];
-    [_leftItem setTitle:_leftTitle forState:UIControlStateNormal];
+    [_leftItem setTitle:(!_leftTitle)?(@"返回"):(_leftTitle) forState:UIControlStateNormal];
     [_leftItem setTitleColor:(!_leftTitleColor)?([UIColor blackColor]):(_leftTitleColor) forState:UIControlStateNormal];
     [_leftItem setImage:[UIImage imageNamed:[self leftBarItemIcon]] forState:UIControlStateNormal];
     _leftItem.imageEdgeInsets = UIEdgeInsetsMake(0, -35, 0, 0);
     _leftItem.titleEdgeInsets = UIEdgeInsetsMake(0, -20, 0, 0);
     [self addSubview:_leftItem];
     
-    //    _leftItem.backgroundColor = [UIColor brownColor];
+//        _leftItem.backgroundColor = [UIColor brownColor];
 }
 
 
