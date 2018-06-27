@@ -6,7 +6,7 @@
 //  Copyright © 2018年 曾涛. All rights reserved.
 //
 
-#import "ZTNavigationView.h"
+#import "ZTNavigationBar.h"
 
 #define APP_W     [UIScreen mainScreen].bounds.size.width
 #define APP_H     [UIScreen mainScreen].bounds.size.height
