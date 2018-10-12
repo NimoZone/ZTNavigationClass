@@ -12,7 +12,7 @@
 #define APP_H     [UIScreen mainScreen].bounds.size.height
 #define IPHONE    (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
 #define IPAD      (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
-#define IPHONE_10 (IPHONE && APP_H == 812)
+#define IPHONE_10 (IPHONE && APP_H >= 812)
 
 
 @interface ZTNavigationBar()
